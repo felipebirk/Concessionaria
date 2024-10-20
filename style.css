@@ -1,0 +1,140 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #1c1b31;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seção de carros */
+#cars {
+    margin: 40px 0;
+    text-align: center;
+}
+
+#cars h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.car-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.car img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.car h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.car p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Seção do formulário de aluguel */
+#rental-form {
+    text-align: center;
+    margin: 30px 0;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+form select, form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #1a1749;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #040227;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1a192e;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    padding-top: 30px;
+    margin: 0;
+}
